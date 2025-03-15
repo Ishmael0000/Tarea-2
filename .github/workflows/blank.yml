@@ -39,4 +39,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build    
+        run: npm run build
+
+        - name: List build directory contents
+          run: ls -alh ./build
